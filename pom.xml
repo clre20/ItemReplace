@@ -15,7 +15,7 @@
 
     <properties>
         <java.version>25</java.version>
-        <paper.version>26.1.2.build.74-stable</paper.version>
+        <paper.version>26.3.build.249-stable</paper.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -31,6 +31,12 @@
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>${paper.version}</version>
+            <scope>provided</scope>
+        </dependency>
+            <dependency>
+            <groupId>clre20</groupId>
+            <artifactId>HttpHub</artifactId>
+            <version>1.0.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

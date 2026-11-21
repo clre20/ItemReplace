@@ -63,7 +63,9 @@ public final class ItemReplace extends JavaPlugin {
         getComponentLogger().info(messages.console("console.loaded",
                 "count", rules.size(), "active", rules.activeCount()));
 
-        if (settings.updateCheckOnStartup) {
+        if (getServer().getPluginManager().isPluginEnabled("HttpHub") && clre20.httpHub.api.HttpHubAPI.isAvailable()) {
+            clre20.httpHub.api.HttpHubAPI.registerUpdateCheck(this, "clre20/ItemReplace", getPluginMeta().getVersion(), "itemreplace.version", null);
+        } else if (settings.updateCheckOnStartup) {
             updateChecker.check(updateChecker::reportToConsole);
         }
     }

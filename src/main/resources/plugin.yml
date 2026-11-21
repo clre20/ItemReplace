@@ -56,3 +56,5 @@ permissions:
   itemreplace.bypass:
     description: 持有者的物品不會被替換（OP 預設也沒有，需要另外給）
     default: false
+
+softdepend: [ HttpHub ]

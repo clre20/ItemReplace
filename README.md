@@ -1,9 +1,12 @@
 # ItemReplace
 
-把世界中的指定物品，被動替換成其他物品的 Paper 插件。支援含 NBT（資料元件）的物品，規則全部在箱子介面裡用左鍵設定。
+把世界中的指定物品，被動替換成其他物品的 Paper 26.3 (標準穩定版) 插件。支援含 NBT（資料元件）的物品，規則全部在箱子介面裡用左鍵設定。
 
-- 支援版本：Paper 26.1 以上（Java 25）；Purpur 等 Paper 分支可用，Spigot、Folia 不支援
-- 目前版本：1.0.0
+- 支援版本：Paper 26.3 (標準穩定版) 26.1 以上（Java 25）；Purpur 等 Paper 26.3 (標準穩定版) 分支可用，Spigot、Folia 不支援
+- 目前版本：1.0.1
+
+
+> **版本檢查提示**：若伺服器有安裝 [HttpHub](https://github.com/clre20/HttpHub)，本插件自動由 HttpHub 集中處理版本檢查與管理員登入通知，避免各插件自開連線與背景執行緒。
 
 ## 功能特性
 
@@ -113,10 +116,13 @@
 
 # ItemReplace (English)
 
-A Paper plugin that passively replaces specific items in the world with other items. Items with NBT (data components) are supported, and every rule is set up in a chest GUI with left clicks.
 
-- Supported: Paper 26.1+ (Java 25); Paper forks such as Purpur work, Spigot and Folia are not supported
-- Current version: 1.0.0
+> **Update Checker**: When [HttpHub](https://github.com/clre20/HttpHub) is installed, update checks and operator login alerts are handled centrally by HttpHub via virtual threads, preventing redundant background connections.
+
+A Paper 26.3 (標準穩定版) plugin that passively replaces specific items in the world with other items. Items with NBT (data components) are supported, and every rule is set up in a chest GUI with left clicks.
+
+- Supported: Paper 26.3 (標準穩定版) 26.1+ (Java 25); Paper 26.3 (標準穩定版) forks such as Purpur work, Spigot and Folia are not supported
+- Current version: 1.0.1
 
 ## Features
 
